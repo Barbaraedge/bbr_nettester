@@ -1,0 +1,5 @@
+services:
+  bbrnettester:
+    build: ./src
+    restart: no
+    network_mode: host
